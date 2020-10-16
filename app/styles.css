@@ -1,0 +1,12 @@
+body {
+  background-color: gainsboro;
+}
+
+.app {
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
