@@ -13,25 +13,24 @@ This boilerplate bundle client and server code with parcel-bundler and easy depl
 - All build files are in `dist` folder
 - Client code is bundled with parcel
 - Server side code is also bundled with parcel but package.json is copied and installed before running emulator or deploying
-
-#### Development
-##### Don't forget to
+ 
+#### Don't forget to
 - Install dependencies `npm install`
 - Set your project id in .firebaserc file
 - Save your Firebase config object for `firebase.initializeApp(firebaseConfig)`
 
-##### For development
-Watch client & server
-`npm run dev`
-Serve files with Firebase emulator
-`npm run server`
+#### For development
+Watch client & server  
+`npm run dev`  
+Serve files with Firebase emulator  
+`npm run server`  
 
 Note: when developing you should run 2 seperate terminals
 -  First terminal to watch client & server files `npm run dev`
 -  Second terminal to start firebase emulator `npm run serve`
 
-##### Production
-Build client & server to dist folder
-`npm run build`
-Deploy hosting and function configuration to firebase
-`npm run deploy`
+#### Production
+Build client & server to dist folder  
+`npm run build`  
+Deploy hosting and function configuration to firebase  
+`npm run deploy`  
