@@ -23,7 +23,7 @@ This boilerplate bundle client and server code with parcel-bundler and easy depl
 Watch client & server  
 `npm run dev`  
 Serve files with Firebase emulator  
-`npm run server`  
+`npm run serve`  
 
 Note: when developing you should run 2 seperate terminals
 -  First terminal to watch client & server files `npm run dev`
